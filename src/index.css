@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+  background-attachment: fixed;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.text-primary {
+  color: #00d2ff !important;
+}
+
+.card, .navbar, .form-control {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white !important;
+}
+
+input, textarea {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+input::placeholder, textarea::placeholder {
+  color: #bbb !important;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+  border: none;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #00d2ff; 
+}
+
+.btn-outline-dark {
+  color: white;
+  border-color: white;
+}
+.btn-outline-dark:hover {
+  background: white;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #3a7bd5; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00d2ff; 
+}
