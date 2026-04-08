@@ -7,7 +7,6 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // Tools
-import AnimatedCursor from "react-animated-cursor";
 import { motion, useScroll } from "framer-motion";
 import Lottie from "lottie-react";
 import loaderAnimation from "./animations/loading.json"; // 1. Loader JSON Import
@@ -77,7 +76,7 @@ function App() {
         }}
       />
 
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={8}
         outerSize={35}
         color='0, 210, 255'
@@ -85,7 +84,7 @@ function App() {
         innerScale={0.7}
         outerScale={2}
         clickables={['a', 'input', 'button', '.link']}
-      />
+      /> */}
 
       <ParticlesBackground />
 
